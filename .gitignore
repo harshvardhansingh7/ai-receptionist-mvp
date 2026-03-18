@@ -1,0 +1,16 @@
+# Env files
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Credentials
+credentials.json
+
+# Node (if any later)
+node_modules/
+
+# OS files
+.DS_Store
+Thumbs.db

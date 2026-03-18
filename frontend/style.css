@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(135deg, #1e1e2f, #2c2c54);
+    color: white;
+}
+
+.container {
+    width: 400px;
+    margin: 40px auto;
+    text-align: center;
+}
+
+/* TITLE */
+h1 {
+    margin-bottom: 10px;
+}
+
+/* STATUS */
+.status {
+    margin: 15px 0;
+    padding: 10px;
+    border-radius: 10px;
+    background: #333;
+    font-size: 14px;
+}
+
+/* BUTTON */
+.call-btn {
+    background: #ff4d4d;
+    border: none;
+    padding: 15px 25px;
+    font-size: 18px;
+    border-radius: 50px;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.call-btn:hover {
+    background: #ff1a1a;
+    transform: scale(1.05);
+}
+
+/* CHAT BOX */
+.chat-box {
+    margin-top: 20px;
+    height: 300px;
+    overflow-y: auto;
+    background: #111;
+    border-radius: 15px;
+    padding: 15px;
+    text-align: left;
+}
+
+/* MESSAGES */
+.message {
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 10px;
+    max-width: 80%;
+    animation: fadeIn 0.3s ease-in;
+}
+
+.user {
+    background: #4CAF50;
+    margin-left: auto;
+    text-align: right;
+}
+
+.bot {
+    background: #444;
+}
+
+/* GUIDE */
+.guide {
+    margin-top: 20px;
+    text-align: left;
+    background: #222;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 14px;
+}
+
+/* ANIMATION */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
