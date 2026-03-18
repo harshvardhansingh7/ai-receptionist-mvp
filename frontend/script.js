@@ -52,9 +52,9 @@ async function sendMessage(text) {
         addMessage(data.response, "bot");
 
         // ✅ Detect completion
-        if (data.response.toLowerCase().includes("appointment is booked")) {
-            callEnded = true;
-        }
+        if (data.completed) {
+    callEnded = true;
+}
 
         speak(data.response);
 
