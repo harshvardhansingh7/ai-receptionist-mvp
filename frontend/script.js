@@ -1,4 +1,4 @@
-const API_URL = "http://127.0.0.1:8000/chat";
+const API_URL = "https://ai-receptionist-mvp.onrender.com/chat";
 
 let sessionId = Math.random().toString(36).substring(7);
 let isSpeaking = false;
